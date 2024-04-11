@@ -21,16 +21,24 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
 
 .contenedor {
     background-color: var(--white);
     border-radius: 1.5rem;
     width: 80%;
-    margin: 15rem auto 0;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     align-items: center;
-    
 }
 
 
@@ -45,7 +53,6 @@ html {
     max-width: 85%;
     font-size: 1.5rem;
     padding: 1rem 0 3rem;
-    
 }
 
 .texto h1 {
@@ -55,9 +62,6 @@ html {
 
 .attribution {
     text-align: center;
-    font-size: 1rem;
-    margin: 2rem auto 0;
-
 }
 
 .attribution a {
@@ -66,8 +70,7 @@ html {
 }
 
 @media (min-width: 380px) {
-     .contenedor {
+    .contenedor {
         width: 30rem;
-        margin-top: 23rem;
-     }
+    }
 }
