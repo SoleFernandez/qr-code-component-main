@@ -31,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: pending
+- Solution URL: https://www.frontendmentor.io/solutions/first-change-with-git--zEQmstvDO
 - Live Site URL: https://solefernandez.github.io/qr-code-component-main/
 
 ## My process
